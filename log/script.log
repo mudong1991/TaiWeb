@@ -263,3 +263,102 @@ ValueError: The view webapp.views.contact_kinds didn't return an HttpResponse ob
 2017-12-28 09:00:19,404 [Thread-53:13064] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item4.jpg
 2017-12-28 09:00:19,405 [Thread-54:10076] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item6.jpg
 2017-12-28 09:00:19,407 [Thread-55:6116] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item5.jpg
+2017-12-28 09:52:25,918 [Thread-15:11664] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-12-28 10:00:06,240 [Thread-407:13676] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-12-28 10:41:13,493 [Thread-1038:5244] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/锁紧条全.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 10:41:13,496 [Thread-1039:13948] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/插箱.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 10:41:13,505 [Thread-1040:2556] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/液冷系统.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 10:41:13,509 [Thread-1041:1248] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/21.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 10:41:13,513 [Thread-1042:13128] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/2_2jzMVa4.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 10:41:13,515 [Thread-1043:9748] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /uploads/product_category/2017/08/导电橡胶组合_bAzC7X3.jpg
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 227, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\myProject\taileizi_work\TaiWeb\webapp\middleware.py", line 30, in process_exception
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: error_info.html
+2017-12-28 11:41:21,128 [Thread-4929:2288] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico

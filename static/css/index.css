@@ -29,11 +29,11 @@ body{
 /*flexisel左右轮播*/
 .flexisel{display: none}
 .nbs-flexisel-container {position:relative;max-width:100%;}
-.nbs-flexisel-ul {position:relative;width:99999px;margin:0px;padding:0px;list-style-type:none;text-align:center;overflow: auto;}
+.nbs-flexisel-ul {position:relative;width:99999px;margin:0px;padding:0px;list-style-type:none;text-align:center;overflow: hidden;}
 .nbs-flexisel-inner {position: relative;overflow: hidden;float:left;width:100%;}
 .nbs-flexisel-item {float:left;margin:0px;padding:0px;position:relative;line-height:0px;}
-.nbs-flexisel-item a{display: inline-block; position: relative; border: 1px solid #cccccc; margin-right: 20px; margin-left: 20px; border-radius: 8px; min-height: 360px; overflow: hidden}
-.nbs-flexisel-item a img {width: 100%; min-height: 360px; border-radius: 8px; transition: all .4s}
+.nbs-flexisel-item a{display: inline-block; position: relative; border: 1px solid #cccccc; margin-right:14px; margin-left: 14px; border-radius: 8px; min-height: 360px; overflow: hidden}
+.nbs-flexisel-item a img {width: 100%; max-width: 330px;min-height: 360px; border-radius: 8px; transition: all .4s;}
 .nbs-flexisel-item a h4{width: 100%;position: absolute;z-index: 10; left: 0; top: 36%; background: rgba(255,255,255,0.7) !important; height: 80px; line-height: 80px;text-align: center;transition: all .4s;font-size: 24px; text-overflow: ellipsis;overflow: hidden;white-space : nowrap;}
 .nbs-flexisel-item a p{text-align: left;line-height: 22px;position: absolute;z-index: 10; left: 0; top: 0; width: 100%; height: 100%; color: white;padding: 70px 10px 10px 10px; text-indent: 2em; overflow: hidden; display: none;transition: all .4s;}
 .nbs-flexisel-item span{width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 8; background: rgba(0, 0,0, 0.4); display: none; }
@@ -42,10 +42,10 @@ body{
 .nbs-flexisel-item a:hover p{display: block}
 .nbs-flexisel-item a:hover span{display: block; }
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {transition: all .4s;padding:5px 10px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;position: absolute;cursor: pointer;z-index: 100;top: 50%;transform: translateY(-50%);background: rgba(0,0,0,0.2);color: #fff;}
-.nbs-flexisel-nav-left {left: 20px;}
+.nbs-flexisel-nav-left {left: 34px;}
 .nbs-flexisel-nav-left:before {content: "<"}
 .nbs-flexisel-nav-left.disabled {opacity: 0.6;}
-.nbs-flexisel-nav-right {right: 20px;}
+.nbs-flexisel-nav-right {right: 34px;}
 .nbs-flexisel-nav-right:before {content: ">"}
 .nbs-flexisel-nav-right.disabled {opacity: 0.6;}
 .nbs-flexisel-nav-left:hover, .nbs-flexisel-nav-right:hover{background:rgba(0, 0, 0, 0.8); color: #be1e2d;}
