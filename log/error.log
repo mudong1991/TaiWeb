@@ -9377,3 +9377,7 @@
 2017-12-28 13:00:38,578 [Thread-9939:13088] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\kindeditor\2017\12\72f33d40-eb06-11e7-8ccb-00163e015a75.png" 不存在
 2017-12-28 13:00:38,622 [Thread-9942:9184] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\news\2017\12\QQ图片20171219143920_9Vzoaxs.png" 不存在
 2017-12-28 13:00:56,059 [Thread-9961:5784] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\video_img\2017\10\jsz.gif" 不存在
+2017-12-28 13:01:19,846 [Thread-9962:15976] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\video_img\2017\10\none.jpg" 不存在
+2017-12-28 13:01:19,891 [Thread-9963:8640] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\video_img\2017\10\none.jpg" 不存在
+2017-12-28 13:01:19,911 [Thread-9964:13052] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\video_img\2017\10\none.jpg" 不存在
+2017-12-28 13:01:19,926 [Thread-9965:10612] [webapp.views:27] [middleware:process_exception] [ERROR]- "F:\myProject\taileizi_work\TaiWeb\uploads\video_img\2017\10\none.jpg" 不存在
