@@ -10,6 +10,7 @@
     <!--产品和案例的轮播js-->
     <script type="text/javascript" src="{% static 'js/carousel-script.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/flexible-bootstrap-carousel.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.flexisel.js' %}"></script>
     <!--新闻js-->
     <script type="text/javascript" src="{% static 'js/prototype.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/ImageSlide.js' %}"></script>
@@ -78,37 +79,18 @@
 
         <section class="carousel-examples">
             <div class="container">
-                <div class="carousel-example">
-                    <!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
-                    <div id="product-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
-
-                        <div class="items">
-                            {% for product_category in product_category_list %}
-                            <div class="flex-item">
-                                <a href="{% url 'product_category' %}?id={{ product_category.id }}" target="_blank">
-                                    <img class="img-responsive" src="{% get_media_prefix %}{{ product_category.image }}"/>
-                                    <h4>{{ product_category.name }}</h4>
-                                    <span></span>
-                                    <p>{{ product_category.description | shear:'250' }}</p>
-                                </a>
-                            </div>
-                            {% endfor %}
-                        </div>
-
-                        <div class="carousel-inner" role="listbox">
-
-                        </div>
-
-                        <a class="left carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="prev">
-                            <span class="fa fa-angle-left" aria-hidden="true"></span>
-                            <span class="sr-only">上一页</span>
+                <ul id="product-flexisel" class="flexisel">
+                   {% for product_category in product_category_list %}
+                    <li>
+                        <a href="{% url 'product_category' %}?id={{ product_category.id }}" target="_blank">
+                            <img class="img-responsive" src="{% get_media_prefix %}{{ product_category.image }}"/>
+                            <h4>{{ product_category.name }}</h4>
+                            <span></span>
+                            <p>{{ product_category.description | shear:'250' }}</p>
                         </a>
-                        <a class="right carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="next">
-                            <span class="fa fa-angle-right" aria-hidden="true"></span>
-                            <span class="sr-only">下一页</span>
-                        </a>
-                    </div>
-                </div>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </section>
 
@@ -167,7 +149,7 @@
     <!--应用案例-->
     <div class="site-application animated fadeIn clearfix">
         <h2 class="text-center index-block-en-title">
-            APPPLICATIONCASE
+            APPLICATIONCASE
         </h2>
         <p class="text-center index-block-cn-title text-center">
             应用案例
@@ -176,37 +158,18 @@
 
         <section class="carousel-examples">
             <div class="container">
-                <div class="carousel-example">
-                    <!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
-                    <div id="application-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
-
-                        <div class="items">
-                            {% for application in application_list %}
-                            <div class="flex-item">
-                                <a href="{% url 'application' %}?id={{ application.id }}" target="_blank">
-                                    <img class="img-responsive" src="{% get_media_prefix %}{{ application.image }}"/>
-                                    <h4>{{ application.name }}</h4>
-                                    <span></span>
-                                    <p>{{ application.description }}</p>
-                                </a>
-                            </div>
-                            {% endfor %}
-                        </div>
-
-                        <div class="carousel-inner" role="listbox">
-
-                        </div>
-
-                        <a class="left carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="prev">
-                            <span class="fa fa-angle-left" aria-hidden="true"></span>
-                            <span class="sr-only">上一页</span>
+                <ul id="opplication-flexisel" class="flexisel">
+                    {% for application in application_list %}
+                    <li>
+                        <a href="{% url 'application' %}?id={{ application.id }}" target="_blank">
+                            <h4>{{ application.name }}</h4>
+                            <img src="{% get_media_prefix %}{{ application.image }}" class="img-responsive" />
+                            <span></span>
+                            <p>{{ application.description | shear:'250' }}</p>
                         </a>
-                        <a class="right carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="next">
-                            <span class="fa fa-angle-right" aria-hidden="true"></span>
-                            <span class="sr-only">下一页</span>
-                        </a>
-                    </div>
-                </div>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </section>
 
@@ -263,6 +226,26 @@
                 watch:".link-watch",
                 auto:!0,
                 hide:!0
+            });
+            // 产品介绍
+            $("#product-flexisel").flexisel({
+                visibleItems: 3,
+                itemsToScroll: 1,
+                autoPlay: {
+                    enable: true,
+                    interval: 5000,
+                    pauseOnHover: true
+                }
+            });
+            // 应用案例
+             $("#opplication-flexisel").flexisel({
+                visibleItems: 3,
+                itemsToScroll: 1,
+                autoPlay: {
+                    enable: true,
+                    interval: 5000,
+                    pauseOnHover: true
+                }
             });
         })
     </script>

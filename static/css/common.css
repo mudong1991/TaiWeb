@@ -18,7 +18,12 @@
     .slide-text p{ width: 100%}
 }
 @media (max-width: 768px) {
-	.site-nav{top:13.2em !important; margin-bottom: 220px; }
+	.site-nav{top:14.6em !important; margin-bottom: 220px; }
+     #bootstrap-touch-slider{margin-top: 2px ; }
+	.logo h3{padding-left: 0px !important}
+}
+@media (max-width: 368px) {
+	.site-nav{top:16.8em !important; margin-bottom: 250px; }
      #bootstrap-touch-slider{margin-top: 2px ; }
 	.logo h3{padding-left: 0px !important}
 }
