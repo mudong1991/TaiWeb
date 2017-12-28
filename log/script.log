@@ -1,0 +1,265 @@
+2017-08-09 16:01:58,262 [Thread-95:5624] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/bootstrap.min.css
+2017-08-09 16:01:58,308 [Thread-96:4100] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/font-awesome.min.css
+2017-08-09 16:01:58,318 [Thread-97:8028] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/base.css
+2017-08-09 16:01:58,326 [Thread-98:3836] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/common.css
+2017-08-09 16:01:58,351 [Thread-99:7088] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/index.css
+2017-08-09 16:01:58,357 [Thread-100:9076] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/animate.css
+2017-08-09 16:01:58,421 [Thread-101:8176] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/animate-element.css
+2017-08-09 16:01:58,470 [Thread-102:6304] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/fonts/iconfont.css
+2017-08-09 16:01:58,484 [Thread-103:8540] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/bootstrap-touch-slider.css
+2017-08-09 16:01:58,492 [Thread-104:300] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/responsive-menu.css
+2017-08-09 16:01:58,512 [Thread-105:8640] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/introduce.css
+2017-08-09 16:01:58,526 [Thread-106:7812] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/cntl.css
+2017-08-09 16:01:58,628 [Thread-107:3648] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery-1.11.1.min.js
+2017-08-09 16:01:58,684 [Thread-108:3036] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery-migrate-1.2.1.min.js
+2017-08-09 16:01:58,713 [Thread-109:3116] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/bootstrap.min.js
+2017-08-09 16:01:58,729 [Thread-110:3524] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.easing.1.3.js
+2017-08-09 16:01:58,770 [Thread-111:3624] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/onscroll.js
+2017-08-09 16:01:58,792 [Thread-112:7484] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.rollGallery_md.js
+2017-08-09 16:01:58,872 [Thread-113:8788] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.touchSwipe.min.js
+2017-08-09 16:01:58,907 [Thread-114:3160] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/bootstrap-touch-slider.js
+2017-08-09 16:01:58,918 [Thread-115:7772] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/modernizr.min.js
+2017-08-09 16:01:58,921 [Thread-116:7780] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/responsive-menu.min.js
+2017-08-09 16:01:58,951 [Thread-117:6660] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.cntl.js
+2017-08-09 16:01:58,976 [Thread-118:6160] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/taileizi.js
+2017-08-09 16:01:59,076 [Thread-119:4000] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/icon.png
+2017-08-09 16:01:59,115 [Thread-120:8980] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/logo1.png
+2017-08-09 16:01:59,121 [Thread-121:8952] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/logo2.png
+2017-08-09 16:01:59,157 [Thread-122:8160] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 16:01:59,160 [Thread-123:4888] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 16:01:59,178 [Thread-124:8720] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.cntl.js
+2017-08-09 16:01:59,211 [Thread-125:8100] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/taileizi.js
+2017-08-09 19:50:59,552 [Thread-72:5200] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/bootstrap.min.css
+2017-08-09 19:50:59,581 [Thread-73:7060] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/font-awesome.min.css
+2017-08-09 19:50:59,582 [Thread-74:3276] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/base.css
+2017-08-09 19:50:59,588 [Thread-75:5016] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/animate.css
+2017-08-09 19:50:59,589 [Thread-76:3644] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/common.css
+2017-08-09 19:50:59,592 [Thread-77:4080] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/index.css
+2017-08-09 19:50:59,648 [Thread-78:6640] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/animate-element.css
+2017-08-09 19:50:59,674 [Thread-79:2840] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/fonts/iconfont.css
+2017-08-09 19:50:59,677 [Thread-80:4668] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/bootstrap-touch-slider.css
+2017-08-09 19:50:59,680 [Thread-81:7036] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/responsive-menu.css
+2017-08-09 19:50:59,680 [Thread-82:2896] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/introduce.css
+2017-08-09 19:50:59,690 [Thread-83:3292] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/css/cntl.css
+2017-08-09 19:50:59,740 [Thread-84:5716] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery-1.11.1.min.js
+2017-08-09 19:50:59,766 [Thread-85:5032] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery-migrate-1.2.1.min.js
+2017-08-09 19:50:59,769 [Thread-86:5172] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/bootstrap.min.js
+2017-08-09 19:50:59,773 [Thread-87:6224] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.easing.1.3.js
+2017-08-09 19:50:59,776 [Thread-88:6928] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/onscroll.js
+2017-08-09 19:50:59,785 [Thread-89:3480] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.rollGallery_md.js
+2017-08-09 19:50:59,841 [Thread-90:3772] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.touchSwipe.min.js
+2017-08-09 19:50:59,871 [Thread-91:5328] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/bootstrap-touch-slider.js
+2017-08-09 19:50:59,875 [Thread-92:2052] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/modernizr.min.js
+2017-08-09 19:50:59,877 [Thread-93:5512] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/responsive-menu.min.js
+2017-08-09 19:50:59,878 [Thread-94:3384] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.cntl.js
+2017-08-09 19:50:59,890 [Thread-95:3896] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/taileizi.js
+2017-08-09 19:50:59,933 [Thread-96:5024] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/icon.png
+2017-08-09 19:50:59,953 [Thread-97:5236] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/logo1.png
+2017-08-09 19:50:59,953 [Thread-98:596] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 19:50:59,957 [Thread-99:2156] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/logo2.png
+2017-08-09 19:50:59,957 [Thread-100:6148] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 19:50:59,984 [Thread-101:1736] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/jquery.cntl.js
+2017-08-09 19:51:00,032 [Thread-102:3724] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/js/taileizi.js
+2017-08-09 20:17:50,359 [Thread-10:3480] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-09 20:17:50,369 [Thread-11:7068] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-09 20:22:32,611 [Thread-129:6684] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner1.jpg
+2017-08-09 20:22:32,617 [Thread-127:6472] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner2.jpg
+2017-08-09 20:22:32,836 [Thread-126:4744] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner1.jpg
+2017-08-09 20:22:32,841 [Thread-128:6568] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner2.jpg
+2017-08-09 20:27:49,190 [Thread-150:6152] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner2.jpg
+2017-08-09 20:27:49,190 [Thread-151:4932] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/product_category/2017/08/banner1.jpg
+2017-08-09 21:00:32,931 [Thread-355:8284] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /product_category/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.product_category didn't return an HttpResponse object. It returned None instead.
+2017-08-09 21:00:48,845 [Thread-356:8376] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /product_category/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.product_category didn't return an HttpResponse object. It returned None instead.
+2017-08-09 21:10:42,391 [Thread-3:8600] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:10:42,398 [Thread-4:8560] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:12:43,598 [Thread-26:8744] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:12:43,598 [Thread-25:8696] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:12:43,917 [Thread-33:8676] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:12:43,917 [Thread-32:8164] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:13:53,552 [Thread-58:8184] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:13:53,553 [Thread-59:7232] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:13:53,802 [Thread-65:7392] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:13:53,802 [Thread-66:7140] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:15:16,799 [Thread-91:8216] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:15:16,801 [Thread-92:5016] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:15:17,009 [Thread-99:9128] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:15:17,010 [Thread-98:1756] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:15:28,660 [Thread-124:8676] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:15:28,660 [Thread-125:3432] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:15:28,904 [Thread-131:8144] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:15:28,905 [Thread-132:8464] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:16:22,453 [Thread-157:8216] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:16:22,459 [Thread-158:5016] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:16:22,674 [Thread-163:8784] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:16:22,674 [Thread-165:8184] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:16:54,599 [Thread-190:5268] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:16:54,599 [Thread-191:8212] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:16:54,829 [Thread-196:7488] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:16:54,832 [Thread-198:4916] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:17:20,201 [Thread-223:8784] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:17:20,204 [Thread-224:7716] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:17:20,436 [Thread-230:1012] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:17:20,437 [Thread-231:9092] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:17:49,753 [Thread-256:7556] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:17:49,759 [Thread-257:8424] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:17:49,970 [Thread-263:6848] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:17:49,970 [Thread-264:8364] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner2.jpg
+2017-08-09 21:19:45,967 [Thread-22:7488] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:19:46,210 [Thread-28:7248] [django.request:152] [base:get_response] [WARNING]- Not Found: /product_category/img/banner1.jpg
+2017-08-09 21:50:04,061 [Thread-37:8772] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.product didn't return an HttpResponse object. It returned None instead.
+2017-08-09 22:15:24,974 [Thread-3:10384] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/bootstrap.min.css
+2017-08-09 22:15:24,974 [Thread-4:10924] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/font-awesome.min.css
+2017-08-09 22:15:24,999 [Thread-5:7616] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/base.css
+2017-08-09 22:15:25,000 [Thread-6:9788] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/common.css
+2017-08-09 22:15:25,017 [Thread-7:10532] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/index.css
+2017-08-09 22:15:25,020 [Thread-8:10820] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/animate.css
+2017-08-09 22:15:25,078 [Thread-9:11236] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/animate-element.css
+2017-08-09 22:15:25,081 [Thread-10:10544] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/fonts/iconfont.css
+2017-08-09 22:15:25,095 [Thread-11:11108] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/bootstrap-touch-slider.css
+2017-08-09 22:15:25,096 [Thread-12:10432] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/responsive-menu.css
+2017-08-09 22:15:25,111 [Thread-13:10624] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/application.css
+2017-08-09 22:15:25,111 [Thread-14:10056] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/css/cntl.css
+2017-08-09 22:15:25,157 [Thread-15:10500] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery-1.11.1.min.js
+2017-08-09 22:15:25,157 [Thread-16:11216] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery-migrate-1.2.1.min.js
+2017-08-09 22:15:25,174 [Thread-17:7228] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/bootstrap.min.js
+2017-08-09 22:15:25,176 [Thread-18:9844] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery.easing.1.3.js
+2017-08-09 22:15:25,191 [Thread-19:10764] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/onscroll.js
+2017-08-09 22:15:25,191 [Thread-20:9108] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery.rollGallery_md.js
+2017-08-09 22:15:25,255 [Thread-21:10888] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery.touchSwipe.min.js
+2017-08-09 22:15:25,256 [Thread-22:7012] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/bootstrap-touch-slider.js
+2017-08-09 22:15:25,266 [Thread-23:8728] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/modernizr.min.js
+2017-08-09 22:15:25,266 [Thread-24:11076] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/responsive-menu.min.js
+2017-08-09 22:15:25,270 [Thread-25:10760] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery.cntl.js
+2017-08-09 22:15:25,272 [Thread-26:10740] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/taileizi.js
+2017-08-09 22:15:25,313 [Thread-27:7216] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/logo1.png
+2017-08-09 22:15:25,322 [Thread-28:10632] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/banner2.jpg
+2017-08-09 22:15:25,325 [Thread-29:6904] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/logo2.png
+2017-08-09 22:15:25,326 [Thread-30:9996] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/banner1.jpg
+2017-08-09 22:15:25,335 [Thread-31:10048] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/jquery.cntl.js
+2017-08-09 22:15:25,361 [Thread-32:10368] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/js/taileizi.js
+2017-08-09 22:19:36,931 [Thread-94:7752] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-09 22:19:37,125 [Thread-100:3480] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-09 22:19:47,789 [Thread-125:10740] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-09 22:19:48,078 [Thread-131:10928] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-09 22:23:31,351 [Thread-156:9884] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-09 22:23:31,546 [Thread-161:9996] [django.request:152] [base:get_response] [WARNING]- Not Found: /product/img/xietiaozhuanyuan.jpg
+2017-08-10 21:26:50,845 [Thread-283:7600] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:26:50,993 [Thread-287:6256] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:27:43,614 [Thread-312:1528] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:27:43,822 [Thread-316:2828] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:27:51,598 [Thread-341:8132] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:27:51,773 [Thread-345:3824] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:28:13,901 [Thread-370:3112] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:28:57,407 [Thread-398:6776] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:28:57,571 [Thread-402:3020] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:33:31,421 [Thread-22:7076] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:33:31,586 [Thread-26:1104] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:33:40,627 [Thread-51:8028] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:33:40,780 [Thread-55:4328] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:36:45,158 [Thread-80:8940] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:36:45,312 [Thread-84:8960] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:39:13,938 [Thread-109:8968] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:39:27,842 [Thread-137:8488] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:39:58,993 [Thread-165:8304] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:16,075 [Thread-193:8504] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:16,239 [Thread-196:6272] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:35,188 [Thread-222:8692] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:45,428 [Thread-250:1076] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:57,551 [Thread-278:8964] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:40:57,711 [Thread-282:2816] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:41:10,407 [Thread-307:1080] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:41:10,563 [Thread-311:8688] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:42:39,253 [Thread-336:8592] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:43:06,368 [Thread-367:8524] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:43:06,581 [Thread-371:8404] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:44:11,645 [Thread-396:8572] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/img/xietiaozhuanyuan.jpg
+2017-08-10 21:59:54,207 [Thread-601:2592] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/1
+2017-08-10 21:59:54,384 [Thread-607:9016] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/images/universal-preloader.gif
+2017-08-10 21:59:54,565 [Thread-611:8004] [django.request:152] [base:get_response] [WARNING]- Not Found: /contact_us/contact_kinds/images/universal-preloader.gif
+2017-08-10 21:59:54,733 [Thread-620:1080] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-10 21:59:54,788 [Thread-621:9104] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-10 22:43:25,937 [Thread-60:11096] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /contact_us/contact_kinds/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.contact_kinds didn't return an HttpResponse object. It returned None instead.
+2017-08-10 22:45:08,999 [Thread-30:8520] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /contact_us/contact_kinds/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.contact_kinds didn't return an HttpResponse object. It returned None instead.
+2017-08-10 23:08:12,453 [Thread-30:8476] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /contact_us/contact_kinds/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.contact_kinds didn't return an HttpResponse object. It returned None instead.
+2017-08-10 23:31:50,533 [Thread-58:12516] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /contact_us/contact_kinds/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view webapp.views.contact_kinds didn't return an HttpResponse object. It returned None instead.
+2017-08-11 00:11:54,753 [Thread-3:13548] [django.request:152] [base:get_response] [WARNING]- Not Found: /service3
+2017-08-11 00:11:57,750 [Thread-8:14552] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/universal-preloader.gif
+2017-08-11 00:11:57,857 [Thread-12:14952] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/universal-preloader.gif
+2017-08-11 00:41:01,048 [Thread-44:16020] [django.request:152] [base:get_response] [WARNING]- Not Found: /search/1
+2017-08-11 00:41:01,237 [Thread-45:15544] [django.request:152] [base:get_response] [WARNING]- Not Found: /search/images/universal-preloader.gif
+2017-08-11 00:41:01,638 [Thread-46:14588] [django.request:152] [base:get_response] [WARNING]- Not Found: /search/images/universal-preloader.gif
+2017-08-11 00:41:45,946 [Thread-49:15368] [django.request:152] [base:get_response] [WARNING]- Not Found: /1
+2017-08-11 00:41:46,084 [Thread-50:15088] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/universal-preloader.gif
+2017-08-11 00:41:46,233 [Thread-51:15464] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/universal-preloader.gif
+2017-08-11 14:22:31,852 [Thread-328:3360] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:24:54,631 [Thread-436:9208] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:27:08,724 [Thread-484:8592] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:27:17,696 [Thread-490:8520] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:28:44,723 [Thread-538:8664] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:28:47,288 [Thread-543:7480] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:28:53,686 [Thread-545:8548] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-11 14:29:12,153 [Thread-599:7428] [django.request:152] [base:get_response] [WARNING]- Not Found: /&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html
+2017-08-17 18:31:07,943 [Thread-1365:2828] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-17 18:38:11,401 [Thread-1493:5828] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-17 18:38:11,446 [Thread-1494:5856] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-23 17:28:04,157 [Thread-200:4080] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-08-23 17:28:04,187 [Thread-201:7636] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-12-27 15:30:04,599 [Thread-14:9872] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/1.jpg
+2017-12-27 15:30:04,730 [Thread-15:10964] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/2.jpg
+2017-12-27 15:30:04,730 [Thread-16:10084] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/3.jpg
+2017-12-27 15:30:04,743 [Thread-17:12148] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/4.jpg
+2017-12-27 15:30:04,744 [Thread-18:10504] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/5.jpg
+2017-12-27 15:30:08,546 [Thread-73:10144] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/1.jpg
+2017-12-27 15:30:08,578 [Thread-76:11564] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/2.jpg
+2017-12-27 15:30:08,632 [Thread-77:10972] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/3.jpg
+2017-12-27 15:30:08,635 [Thread-78:692] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/4.jpg
+2017-12-27 15:30:08,640 [Thread-79:12468] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/5.jpg
+2017-12-27 15:32:54,233 [Thread-51:1268] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-12-28 09:00:19,377 [Thread-50:16948] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item1.jpg
+2017-12-28 09:00:19,388 [Thread-51:10956] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item2.jpg
+2017-12-28 09:00:19,403 [Thread-52:16768] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item3.jpg
+2017-12-28 09:00:19,404 [Thread-53:13064] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item4.jpg
+2017-12-28 09:00:19,405 [Thread-54:10076] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item6.jpg
+2017-12-28 09:00:19,407 [Thread-55:6116] [django.request:152] [base:get_response] [WARNING]- Not Found: /img/item5.jpg

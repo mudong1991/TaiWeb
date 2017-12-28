@@ -1,0 +1,66 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load staticfiles %}
+{% load static %}
+{% load myfilter %}
+
+{% block head_css %}
+    <style type="text/css">
+        .product-detail-img img{
+            height: 370px;
+            width: 100%;
+        }
+        .tab-pane{
+            padding-top: 16px;
+        }
+        #down a{
+            color: #1A88D3;
+        }
+        #down a:hover{
+            color:  #FF6600;
+        }
+    </style>
+{% endblock %}
+
+{% block site_content_common %}
+
+<div class="animated fadeIn clearfix col-sm-12">
+    <div class="left col-md-7">
+        <div class="product-detail-img">
+            <img src="{% get_media_prefix %}{{ product_obj.image }}"  class="img-responsive" />
+        </div>
+        <div class="product-detail-content margin-top-10">
+            <ul id="introduce-tab" class="nav nav-tabs">
+               <li class="active"><a href="#para" data-toggle="tab">参数</a></li>
+               <li><a href="#model" data-toggle="tab">选型</a></li>
+               <li><a href="#test" data-toggle="tab">测试</a></li>
+               <li><a href="#apply" data-toggle="tab">应用</a></li>
+               <li><a href="#down" data-toggle="tab">下载</a></li>
+            </ul>
+            <div id="introduce-content" class="tab-content">
+               <div class="tab-pane fade in active" id="para">
+                  {{ product_obj.parameter | safe }}
+               </div>
+               <div class="tab-pane fade" id="model">
+                  {{ product_obj.model | safe }}
+               </div>
+               <div class="tab-pane fade" id="test">
+                  {{ product_obj.test | safe }}
+               </div>
+               <div class="tab-pane fade" id="apply">
+                  {{ product_obj.application | safe }}
+               </div>
+                <div class="tab-pane fade" id="down">
+                  产品介绍资料下载: <a download="{{ product_obj.download | get_file_name }}" href="{% get_media_prefix %}{{ product_obj.download }}">{{ product_obj.download | get_file_name }}</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right col-md-5">
+        <div class="clearfix">
+            <h3 class="text-center">{{ product_obj.name }}</h3>
+            <span>{{ product_obj.content | safe }}</span>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'webapp/common.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block site_content %}
+    <div class="site-content"  id="content">
+        <div class="container clearfix padding-top-bottom-10" style="padding-bottom: 100px">
+            <ol class="breadcrumb col-xs-12">
+			  <li><a href="/">首页</a></li>
+              {% for content_nav in content_nav_list %}
+			  <li><a href="{{ content_nav.url }}">{{ content_nav.name }}</a></li>
+              {% endfor %}
+			  <li class="active">{{ site_menu }}</li>
+			</ol>
+
+            <div class="margin-top-10">
+                {% block site_content_common %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block site_content_common %}
+
+    {% if result_list %}
+        <h4><strong>查找成功：</strong></h4>
+        <div style="padding: 10px 5%">
+            {% for result in result_list %}
+            <h4 style="border-bottom: 1px solid #cccccc;line-height: 40px"><a href="{{ result.url }}">{{ result.title }}</a></h4>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h4 class="text-center red"><strong>对不起，没有找到相关内容！</strong></h4>
+    {% endif %}
+
+{% endblock %}

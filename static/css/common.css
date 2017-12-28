@@ -1,0 +1,218 @@
+/*大型设备*/
+@media (min-width: 1200px) {
+	.container{
+		width: 1200px !important;
+	}
+    .slide-text{top:38% !important;}
+    .slide-text p{ width: 70%}
+}
+@media (max-width: 992px){
+	.site-top{top: 0px !important;}
+	.site-nav{position: relative !important; margin-bottom: 100px;}
+	#bootstrap-touch-slider{margin-top: 2px; }
+}
+@media (max-width: 940px) {
+     .rm-nav>ul>li{margin-bottom: 4px; }
+    #bootstrap-touch-slider{margin-top: 180px !important; }
+    .slide-text{top:10% !important;}
+    .slide-text p{ width: 100%}
+}
+@media (max-width: 768px) {
+	.site-nav{top:13.2em !important; margin-bottom: 220px; }
+     #bootstrap-touch-slider{margin-top: 2px ; }
+	.logo h3{padding-left: 0px !important}
+}
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*加载进度*/
+#progress {
+    position:fixed;
+    height: 2px;
+    background:#BE1E2D;
+    top: 0;
+    z-index: 1000;
+    transition:opacity 500ms linear
+}
+#progress.done {
+    opacity:0
+}
+
+/*顶部*/
+.site-top{z-index: 100; position: absolute; top: 3.2em; width: 100% !important;}
+.site-top-container{margin: 0 auto; max-width: 1310px;}
+.logo-img-1{height: 70px; width: 170px;}
+.logo-img-2{height: 40px !important; width: 270px !important; margin-left: 40px !important; margin-top: 10px }
+.logo h3{padding-top: 0.4em;color: #0d3371;padding-left: 2em;font-size: 26px;font-family: '微软雅黑', serif !important;}
+.search{position: relative;}
+.search input{width: 100%; outline: none;background-color:transparent;color: #444;height: 2.6em;padding-left: 1em;border: 0.15em solid #0d3371;border-radius: 1.5em;margin-top: 2em;padding-right: 3em;transition: all 0.3s;}
+.search input:focus{box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.6);}
+.search-button{position: absolute;width: 3em;height: 2.6em;right: 0em;top: 1.9em;cursor: pointer;border-bottom-right-radius: 1.5em;border-top-right-radius: 1.5em;text-align: center;}
+.search i{font-size: 2em;color: #0d3371;}
+
+/*轮播*/
+#bootstrap-touch-slider{z-index: 1;position: relative;}
+.slide-text h2{color: white; font-family: '微软雅黑' !important; text-shadow:2px 5px 5px #000000; font-weight: bold}
+.slide-text p{ margin: 0 auto; text-shadow: 2px 3px 3px #000000}
+.slide-image{min-height:400px}
+.bs-slider-overlay{background-color: rgba(0, 0, 0, 0.04) !important;}
+
+/*导航栏*/
+.site-nav{z-index: 100 !important; position: absolute; top: 10.6em; width: 100%; border-radius: 4px; background: rgba(13, 51, 113, 0.8); box-shadow: 0px 0px 10px rgba(4, 4, 4, 0.4);}
+.site-nav-fixed-top{position: fixed !important; top: 0px !important;}
+.rm-container{margin-right: -2em; padding-right: 0em;}
+.wrapper{max-width: 1210px !important; }
+.rm-nav>ul>li{margin-right: 4px; }
+.rm-nav li:hover .fa-angle-down{display: none;}
+.rm-nav li:hover .fa-angle-up{display: inline;}
+.rm-menu-item .rm-menu-item a:hover{color: white !important;}
+.rm-nav .active{background: white !important; }
+.rm-nav .active>a{color: #0d3371 !important}
+.rm-nav li ul li a{margin-bottom: 1px}
+.rm-nav li.active ul li.active a{background-color: #0d3371 !important}
+.rm-nav li.active ul li.active a{color: white !important}
+
+/*网页脚部*/
+.footer-logo-1{height: 60px; width: 140px;  margin-right: 40px !important; }
+.footer-logo-2{height: 35px !important; width: 230px !important;margin-top: 7px }
+.site-footer{
+	background-color: #0e2335;
+	background-image: url(../img/bgImgFooter.png);
+}
+.max1300{
+	max-width: 1300px;
+}
+.footer-friendlylink{
+	float: left;
+	width: 86%;
+}
+.site-footer .nav-group {
+    margin-top: 5%;
+    float: left;
+    color: #777;
+    width: 20%;
+    padding-right: 2em;
+}
+.site-footer .nav-group h4 {
+    color: #AABDBD;
+    margin-bottom: 1.5em;
+    font-size: 1.4em;
+    border-bottom: 2px solid #AABDBD;
+    padding-bottom: 1em;
+}
+.site-footer .nav-group>li {
+    margin-bottom: 20px;
+}
+.site-footer .nav-group>li>a {
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    text-decoration: none;
+    color: #777;
+    word-wrap:break-word
+}
+.site-footer .nav-group>li>a:hover{
+	color: #fff;
+}
+.site-footer .nav-group:last-child{
+	clear: both;
+	width: auto;
+}
+.site-footer .nav-group:last-child li{
+	float: left;
+}
+.site-footer .nav-group:last-child li img{
+	height: 4em;
+	margin-right: 2em;
+}
+.footer-QRcode {
+    margin-top: 40px;
+}
+.footer-QRcode img{
+    margin-bottom: 10px;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+}
+
+
+
+/*错误页面*/
+.err_cont {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.err_tex {
+    float: left;
+    width: 280px;
+    padding: 50px 0 0;
+}
+
+.err_pictrue {
+    float: right;
+    background: url(../img/erro_bg.jpg) no-repeat right center !important;
+    width: 317px;
+    height: 392px;
+    font-size: large;
+}
+.err_pictrue2{
+    float: right;
+    background: url(../img/erro_bg.jpg) no-repeat right top;
+    width: 240px;
+    height: 265px;
+    font-size: large;
+}
+.err_number {
+    height: 270px;
+    width: 250px;
+    line-height: 270px;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    float: right;
+}
+
+.err_return {
+    width: 70px;
+    height: 50px;
+    top: 260px;
+    left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.err_back_home {
+    width: 70px;
+    height: 50px;
+    top: 260px;
+    left: 140px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sub_device_title{
+    text-align: center !important;
+    font-size: 20px;
+}
+
+/*侧飘*/
+.floatfile{position: absolute; width: 60px; height: auto;right: 20px;z-index: 9999;  background: rgba(0,0,0,0.25); box-shadow: 0px 0px 4px rgba(0,0,0,0.4);}
+.floatfile a{display: block; width: 100%; height:80px; color: white; text-align: center; transition: all 0.5s; position: relative;}
+.floatfile a:hover{text-decoration: none; color: #FF6600; background: rgba(0,0,0,0.6);}
+.floatfile a span{display: block; width: 100%; height: 60px; line-height: 60px ; font-size: 32px;}
+.free-phone{position: absolute; width: 200px; height: 80px; right: 60px; top: 0; background: rgba(0,0,0,0.6); padding: 4px 8px; display: none; transition: all 0.5s;}
+.free-phone input{margin-top: 4px;}
+.floatfile a:hover .free-phone{display: block;}
+
+/*其他页面通用样式*/
+.site-content{background: url(../img/building-bg.jpg) no-repeat}
+.page-nav-item{display: block;height: 220px; width: 220px;border-radius:110px;margin: 20px auto; border: 1px solid #cccccc;
+    text-align: center; font-size: 30px; transition: all .4s; position: relative}
+.page-nav-item:hover{box-shadow: 0px 0px 10px rgba(0,0,0, 0.4);background: rgba(13, 51, 113, 0.8); color: white; }
+.page-nav-item:hover i{transition: all .4s}
+.page-nav-item:hover i{transform: rotate(360deg)}
+.page-nav-item span{z-index: 4; position: absolute; top: 0%; left: 0; width: 100%;display: inline-block; text-align: center; height: 100%; padding-top: 60px;}
+.page-nav-item img{position: absolute; width: 100%; height: 100%; left: 0;top:0; z-index: 1}

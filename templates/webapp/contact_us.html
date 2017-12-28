@@ -1,0 +1,22 @@
+{% extends 'webapp/site_content_common.html' %}
+
+{% block site_content_common %}
+    <div class="col-xs-12 margin-top-22">
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'contact_kinds' %}" target="_blank">
+                <span>
+                    <i class="fa fa-phone"></i><br/>
+                    联系我们
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'recruit' %}" target="_blank">
+                <span>
+                    <i class="fa fa-american-sign-language-interpreting"></i><br/>
+                    诚聘英才
+                </span>
+            </a>
+        </div>
+    </div>
+{% endblock %}

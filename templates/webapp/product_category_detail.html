@@ -1,0 +1,50 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block head_css %}
+    <style type="text/css">
+        .product-content-item {border: 1px solid #cccccc;position: relative;width: 300px; height: 300px;  border-radius: 10px; margin: 20px auto; overflow: hidden; cursor: pointer; transition: all .2s; top: 32%;}
+        .product-content-item-img{display: flex; justify-content:center;  align-items:Center;overflow: hidden; width: 100%; height: 100%;  z-index: 1; position: absolute;left: 0;top:0}
+        .product-content-item img{transition: all .2s;width: auto;  height: auto;  max-width: 100%; max-height: 100%; }
+        .product-content-item h4{text-align: center;background: rgba(255,255,255,0.6); height: 100px; line-height: 100px;transition: all .4s;z-index: 6;  font-size: 24px; position: absolute; left: 0; top: 32%; width: 100%;display:block; color: #444; padding-bottom: 4px;}
+        .product-content-item p{display: none;margin: 0;background: rgba(0, 0,0,0.4); z-index: 4;position: absolute; width: 100%; height: 100%;left: 0;top: 0; transition: all .4s;}
+        .product-content-item span{z-index: 6;display: none;position: absolute; top: 60px; left: 12px; right: 12px;transition: all .4s;text-indent: 2em; color: white; }
+        .product-content-item:hover img{transform: scale(1.1)}
+        .product-content-item:hover{box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);}
+        .product-content-item:hover h4{ top: 6px; left: 6px; font-size: 16px;color: white;border-bottom: 4px solid white; font-weight:bold;height:30px; line-height: 20px; background: transparent; width: auto;display: inline-block;text-align: left;}
+        .product-content-item:hover span{display: inline-block;}
+        .product-content-item:hover p{display: block;}
+    </style>
+{% endblock %}
+
+{% block site_content_common %}
+<div class="clearfix margin-bottom-22">
+    <h3 class="text-center">{{ product_category_obj.name }}</h3>
+    {% if product_category_obj.description %}<blockquote>{{ product_category_obj.description }}</blockquote>{% endif %}
+    {% if product_category_obj.content %}
+    <div>
+        {{ product_category_obj.content | safe }}
+    </div>
+    {% endif %}
+</div>
+
+<div class="product-content col-xs-12 clearfix">
+    {% for product in product_list %}
+    <div class="col-sm-12 col-md-4 animate-element left-to-right">
+        <div class="product-content-item">
+            <a href="{% url 'product' %}?id={{ product.id }}">
+                <div class="product-content-item-img">
+                    <img class="img-responsive" src="{% get_media_prefix %}{{ product.image }}" />
+                </div>
+                <p></p>
+                <h4>{{ product.name }}</h4>
+                <span>
+                    {{ product.description }}
+                </span>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

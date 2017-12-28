@@ -1,0 +1,59 @@
+.site-footer{
+	background-color: #0e2335;
+	background-image: url(../img/bgImgFooter.png);
+}
+.max1000{
+	max-width: 1000px;
+}
+.footer-friendlylink{
+	float: left;
+	width: 86%;
+}
+.site-footer .nav-group {
+    margin-top: 5%;
+    float: left;
+    color: #777;
+    width: 20%;
+    padding-right: 2em;
+}
+.site-footer .nav-group h4 {
+    color: #AABDBD;
+    margin-bottom: 1.5em;
+    font-size: 1.4em;
+    border-bottom: 2px solid #AABDBD;
+    padding-bottom: 1em;
+}
+.site-footer .nav-group>li {
+    margin-bottom: 20px;
+}
+.site-footer .nav-group>li>a {
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    text-decoration: none;
+    color: #777;
+}
+.site-footer .nav-group>li>a:hover{
+	color: #fff;
+}
+.site-footer .nav-group:last-child{
+	clear: both;
+	width: auto;
+}
+.site-footer .nav-group:last-child li{
+	float: left;
+}
+.site-footer .nav-group:last-child li img{
+	height: 4em;
+	margin-right: 2em;
+}
+.footer-QRcode{
+	float: right;
+	width: 14%;
+	margin-top: 5%;
+	text-align: right;
+}
+.footer-QRcode img{
+	width: 100%;
+	margin-bottom: 15%;
+}

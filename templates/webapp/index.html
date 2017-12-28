@@ -1,0 +1,269 @@
+{% extends 'webapp/common.html' %}
+{% load myfilter %}
+{% load staticfiles %}
+{% load static %}
+
+{% block head_css %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+{% endblock %}
+{% block head_js %}
+    <!--产品和案例的轮播js-->
+    <script type="text/javascript" src="{% static 'js/carousel-script.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/flexible-bootstrap-carousel.js' %}"></script>
+    <!--新闻js-->
+    <script type="text/javascript" src="{% static 'js/prototype.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/ImageSlide.js' %}"></script>
+{% endblock %}
+
+
+{% block site_content %}
+    <!--关于我们-->
+    <div class="site-aboutus container animated fadeIn clearfix">
+        <h2 class="text-center index-block-en-title">
+            ABOUT US
+        </h2>
+        <p class="text-center index-block-cn-title text-center">
+            关于泰雷兹
+            <b></b>
+        </p>
+        <p class="aboutus-content">
+            {{ company_profile.content | shear:'300' | safe }}
+        </p>
+
+        <div class="show_more">
+            <a href="{% url 'company_intro' %}#content" target="_blank">查看更多</a>
+        </div>
+    </div>
+
+    <!--公司视频-->
+    <div class="site-video animated fadeIn clearfix">
+        {% for company_video in company_video_list %}
+        {% if forloop.first %}
+        <img class="video-content-bg" src="{% get_media_prefix %}{{ company_video.video_img }}">
+        {% endif %}
+        {% endfor %}
+        <h2 class="text-center index-block-en-title">
+            VIDEO
+        </h2>
+        <p class="text-center index-block-cn-title text-center">
+            公司视频
+            <b></b>
+        </p>
+
+        <div class="video-content col-xs-12 clearfix">
+            {% for company_video in company_video_list %}
+            <div class="col-sm-12 col-md-6 video-item animate-element right-to-left">
+                <div class="video-item-content" id="company_intro{{ forloop.counter }}">
+                    <div class="video-item-content-title text-center clearfix">
+                        <h3 class="text-center">{{ company_video.title }}</h3>
+                        <span></span>
+                    </div>
+                    <img src="{% get_media_prefix %}{{ company_video.video_img }}" class="img-responsive" />
+                    <i class="iconfont icon-bofang off"></i>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!--产品介绍-->
+    <div class="site-product animated fadeIn clearfix">
+        <h2 class="text-center index-block-en-title">
+            PRODUCTS
+        </h2>
+        <p class="text-center index-block-cn-title text-center">
+            产品介绍
+            <b></b>
+        </p>
+
+        <section class="carousel-examples">
+            <div class="container">
+                <div class="carousel-example">
+                    <!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
+                    <div id="product-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
+
+                        <div class="items">
+                            {% for product_category in product_category_list %}
+                            <div class="flex-item">
+                                <a href="{% url 'product_category' %}?id={{ product_category.id }}" target="_blank">
+                                    <img class="img-responsive" src="{% get_media_prefix %}{{ product_category.image }}"/>
+                                    <h4>{{ product_category.name }}</h4>
+                                    <span></span>
+                                    <p>{{ product_category.description | shear:'250' }}</p>
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class="carousel-inner" role="listbox">
+
+                        </div>
+
+                        <a class="left carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="prev">
+                            <span class="fa fa-angle-left" aria-hidden="true"></span>
+                            <span class="sr-only">上一页</span>
+                        </a>
+                        <a class="right carousel-control list-carousel-control" href="#product-content-carousel" role="button" data-slide="next">
+                            <span class="fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="sr-only">下一页</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="show_more pull-left">
+            <a href="{% url 'product_category' %}">查看更多</a>
+        </div>
+    </div>
+
+    <!--新闻中心-->
+    <div class="site-news animated fadeIn clearfix">
+        <h2 class="text-center index-block-en-title">
+            NEWS
+        </h2>
+        <p class="text-center index-block-cn-title text-center">
+            新闻中心
+            <b></b>
+        </p>
+
+        <div id="focusImage" class="news-slide container">
+            <ul class="contents">
+                {% for news in news_list %}
+                <li class="current">
+                    <div class="image animated fadeIn">
+                        <a href="{% url 'news' %}?id={{ news.id }}" target="_blank"><img src="{% get_media_prefix %}{{ news.news_image }}" class="img-responsive"></a>
+                    </div>
+                    <div class="text">
+                        <span class="title animate-element bottom-to-top"><a href="{% url 'news' %}?id={{ news.id }}" target="_blank">{{ news.title }}</a></span>
+                        <p class="animate-element bottom-to-top text-indent-2">{{ news.content | shear:'250' | safe }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="triggers">
+                {% for news in news_list %}
+                <a href="javascript:;" {% if forloop.first %}class="cur current"{% endif %}><img src="{% get_media_prefix %}{{ news.news_image }}" width="58" height="38"></a>
+                {% endfor %}
+            </div>
+
+            <div class="icon-dot">
+                {% for news in news_list %}
+                    <a href="javascript:;" {% if forloop.first %}class="cur current"{% endif %}></a>
+                {% endfor %}
+            </div>
+
+            <span class="link-watch pre down"></span>
+            <span class="link-watch next down"></span>
+
+        </div>
+
+        <div class="show_more pull-left">
+            <a href="{% url 'news' %}">查看更多</a>
+        </div>
+    </div>
+
+    <!--应用案例-->
+    <div class="site-application animated fadeIn clearfix">
+        <h2 class="text-center index-block-en-title">
+            APPPLICATIONCASE
+        </h2>
+        <p class="text-center index-block-cn-title text-center">
+            应用案例
+            <b></b>
+        </p>
+
+        <section class="carousel-examples">
+            <div class="container">
+                <div class="carousel-example">
+                    <!-- FLEXIBLE BOOTSTRAP CAROUSEL -->
+                    <div id="application-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="7000" data-wrap="true">
+
+                        <div class="items">
+                            {% for application in application_list %}
+                            <div class="flex-item">
+                                <a href="{% url 'application' %}?id={{ application.id }}" target="_blank">
+                                    <img class="img-responsive" src="{% get_media_prefix %}{{ application.image }}"/>
+                                    <h4>{{ application.name }}</h4>
+                                    <span></span>
+                                    <p>{{ application.description }}</p>
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class="carousel-inner" role="listbox">
+
+                        </div>
+
+                        <a class="left carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="prev">
+                            <span class="fa fa-angle-left" aria-hidden="true"></span>
+                            <span class="sr-only">上一页</span>
+                        </a>
+                        <a class="right carousel-control list-carousel-control" href="#application-content-carousel" role="button" data-slide="next">
+                            <span class="fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="sr-only">下一页</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="show_more pull-left">
+            <a href="{% url 'application' %}">查看更多</a>
+        </div>
+    </div>
+
+    {% for company_video in company_video_list %}
+    <!--视频遮盖-->
+    <div class="video-mask" id="video-mask{{ forloop.counter }}">
+        <img src="{% static 'img/close_video_mask.png' %}" alt="关闭" class="close-video-mask" id="close-video-mask{{ forloop.counter }}">
+        <div class="video-title">{{ company_video.title }}</div>
+        <div class="video-container">
+            <video src="" controls="" class="video-item" id="tailei-video"></video>
+        </div>
+        <div class="video-desc">
+            <!--
+            <p ><span>在最美的年华里，走进最接近梦想的地方。</span></p>
+            <p ><span>在这里，我们亲眼见证技术的力量，一起用今天的努力，改变不久后的未来。。</span></p>
+            <p ><span>百度四季延时，为了留住飞逝的韶光，送给时光里追梦的你。</span></p>
+            <p><span>如果我们的征途是星辰大海，愿你我青春无悔。</span></p>-->
+            {{ company_video.describe | safe }}
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#company_intro{{ forloop.counter }}").on('click', function(){
+            $("#tailei-video").attr("src", "{{ company_video.url }}");
+            $('#video-mask{{ forloop.counter }}').show();
+        });
+        $("#close-video-mask{{ forloop.counter }}").on('click', function(){
+            $('#video-mask{{ forloop.counter }}').hide();
+            $("#tailei-video").attr("src", "");
+        });
+    </script>
+    {% endfor %}
+
+{% endblock %}
+
+{% block footer_js %}
+    <script type="text/javascript">
+        $(function () {
+            //公司视频
+            $(".video-item .video-item-content").on('mouseover', function(){
+                var show_img_src = $(this).children('img').attr("src");
+                $(".video-content-bg").attr('src', show_img_src);
+            });
+            //新闻
+            new ImageSlide({
+                project:"#focusImage",
+                content:".contents li",
+                tigger:".triggers a",
+                dot:".icon-dot a",
+                watch:".link-watch",
+                auto:!0,
+                hide:!0
+            });
+        })
+    </script>
+{% endblock %}

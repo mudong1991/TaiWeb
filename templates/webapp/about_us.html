@@ -1,0 +1,46 @@
+{% extends 'webapp/site_content_common.html' %}
+
+{% block site_content_common %}
+    <div class="col-xs-12 margin-top-22">
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'company_intro' %}" target="_blank">
+                <span>
+                    <i class="fa fa-group"></i><br/>
+                    公司介绍
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'develop_history' %}" target="_blank">
+                <span>
+                    <i class="fa fa-clock-o"></i><br/>
+                    发展历程
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'culture' %}" target="_blank">
+                <span>
+                    <i class="fa fa-flag-o"></i><br/>
+                    公司文化
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'structure' %}" target="_blank">
+                <span>
+                    <i class="fa fa-cubes"></i><br/>
+                    组织架构
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'news' %}" target="_blank">
+                <span>
+                    <i class="fa fa-newspaper-o"></i><br/>
+                    新闻中心
+                </span>
+            </a>
+        </div>
+    </div>
+{% endblock %}

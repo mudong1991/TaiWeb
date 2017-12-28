@@ -1,0 +1,11 @@
+.site-application{
+	padding-bottom: 75px;
+}
+.breadcrumb{
+	padding:18px 15px;
+	background: transparent;
+	border-bottom: 1px solid #DDD;
+}
+.site-application .product-content-item{
+	border-radius: 0;
+}

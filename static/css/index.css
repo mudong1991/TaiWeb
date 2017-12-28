@@ -1,0 +1,120 @@
+body{
+	position: relative;
+}
+
+/*版权标题通用*/
+.index-block-en-title{padding-top: 70px; color: #444;}
+.index-block-cn-title{font-size: 20px; line-height: 14px; color: #444;}
+.index-block-cn-title b{display: block;width: 60px; background:#be1e2d; height: 2px; margin: 0 auto; margin-top: 16px;}
+.show_more{width: 100%; margin-top: 60px;}
+.show_more a{transition: all .5s;width: 100px;display: block; margin: 0 auto;height: 40px; line-height: 40px;text-align: center; color: #be1e2d; border: 1px solid #be1e2d; border-radius: 4px; background: white;}
+.show_more a:hover{font-size: 16px;background: #be1e2d; color: white; box-shadow: 0px 0px 0.3em rgba(0, 0, 0, 0.6); }
+.carousel-examples{margin-top: 60px; margin-bottom: 10px;}
+.carousel.flexible .items {display: none;}
+.list-carousel-control{width: 8%;}
+.list-carousel-control.right, .list-carousel-control.left{background-image: none !important; }
+.list-carousel-control.right:hover, .list-carousel-control.left:hover{background:rgba(0,0,0,0.2) none !important;}
+.list-carousel-control span[class*='fa']{top: 46%; font-size: 28px; position: absolute;}
+.left.list-carousel-control{border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+.right.list-carousel-control{border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+.flex-item{position: relative; transition: all .4s; overflow: hidden; border-radius: 8px; border: 1px solid #cccccc}
+.flex-item img{min-height: 370px; transition: all .4s;}
+.flex-item span{width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 8; background: rgba(0, 0,0, 0.4); display: none;}
+.flex-item h4{width: 100%;position: absolute;z-index: 10; left: 0; top: 32%; background: rgba(255,255,255,0.7) !important; height: 100px; line-height: 100px;text-align: center;transition: all .4s;font-size: 24px; text-overflow: ellipsis;overflow: hidden;white-space : nowrap;}
+.flex-item p{position: absolute;z-index: 10; left: 0; top: 0; width: 100%; height: 100%; color: white;padding: 70px 10px 10px 10px; text-indent: 2em; overflow: hidden; display: none;transition: all .4s;}
+.flex-item:hover img{transform: scale(1.1);}
+.flex-item:hover h4{margin-right: 10px; width: auto;background: none !important; top: 0; left: 10px; right: 0px; border-bottom: 2px solid white; height: 40px; line-height: 40px; font-size: 16px; color: white; font-weight: bold;}
+.flex-item:hover p{display: block; }
+.flex-item:hover span{display: block; }
+
+/*关于我们*/
+.site-aboutus .aboutus-content{text-indent: 2em; line-height: 2em; margin-top: 50px; padding:0 10px;}
+
+
+/*公司视频*/
+.site-video{width: 100%; height: auto; background: transparent; transition: all .5s; margin-top: 75px; overflow: hidden; position: relative;}
+.video-content-bg{position: absolute; transition: all .2s;z-index: -1;top: 0; left: 0; width: 100%; height: 100%; -webkit-filter: blur(6px);-moz-filter: blur(6px);-o-filter: blur(6px);-ms-filter: blur(6px);filter: blur(6px);background-repeat: no-repeat;background-position: center;background-size: cover;}
+.video-content{margin-top: 20px;}
+.video-item{margin-top: 10px; margin-bottom: 60px; }
+.video-item .video-item-content{max-width: 400px; margin: 0 auto; height: 20em; position: relative; cursor: pointer; transition: all .2s; overflow: hidden;}
+.video-item .video-item-content i{font-size: 40px; position: absolute; top:50%; left: 45%; color: white;}
+.video-item .video-item-content img{width: 100%; height: 100%}
+.video-item-content-title{height: 5em; padding-bottom: 1em;color: white; transition: .2s;}
+.video-item-content-title h3{font-size: 16px; }
+.video-item-content-title span{display: block; width: 40px; height: 4px; background: white; border-radius: 2px; margin: 0 auto; transition: all .5s;}
+.video-item .video-item-content img{height: 15em; transition: all .2s;}
+
+.video-item .video-item-content:hover {box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);}
+.video-item .video-item-content:hover i{display: inline;}
+.video-item .video-item-content:hover .video-item-content-title{background: white; color: #444;}
+.video-item .video-item-content:hover .video-item-content-title span{width: 80px; background: #444;}
+.video-item .video-item-content:hover img{transform: scale(1.1);}
+
+ 
+/*产品介绍*/
+.site-product{padding-bottom: 40px; }
+.product-content{margin-top: 60px;}
+/*旧的样式*/
+.product-content-item { position: relative;width: 300px; height: 340px;  border-radius: 10px;margin: 0 auto; margin-bottom: 10px; overflow: hidden; cursor: pointer; transition: all .2s; top: 32%;}
+.product-content-item img{width: 100%; height: 100%; transition: all .2s; z-index: 1; position: absolute;}
+.product-content-item h4{text-align: center;background: rgba(255,255,255,0.6); height: 100px; line-height: 100px;transition: all .4s;z-index: 6;  font-size: 24px; position: absolute; left: 0; top: 32%; width: 100%;display:block; color: #444; padding-bottom: 4px;}
+.product-content-item p{display: block;margin: 0;background: rgba(0, 0,0,0.4); position: absolute; z-index: -1; width: 100%; height: 100%;left: 0;top: 0; transition: all .4s;}
+.product-content-item span{z-index: -1; display: inline-block;position: absolute; top: 60px; left: 12px; right: 12px;transition: all .4s;text-indent: 2em; color: white; }
+.product-content-item:hover img{transform: scale(1.1);}
+.product-content-item:hover{box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);}
+.product-content-item:hover h4{ top: 6px; left: 6px; font-size: 16px;color: white;border-bottom: 4px solid white; font-weight:bold;height:30px; line-height: 20px; background: transparent; width: auto;display: inline-block;text-align: left;}
+.product-content-item:hover span{z-index: 6;}
+.product-content-item:hover p{z-index: 4;}
+
+/*新闻中心*/
+.site-news{background: #f9f9f9 url(../img/bgImg.png) repeat; padding-bottom: 60px; }
+/* slide */
+.news-slide,.news-slide li{height:380px;background-color:#fbfbfb;}
+.news-slide{overflow:hidden;position:relative; margin-top: 60px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);}
+.news-slide li{position:absolute;overflow:hidden;display:none; left: 0; top: 0;width: 100%;}
+.news-slide li.current{display:block;}
+.news-slide li .image{position:absolute;top:0px;left:0px; width: 70%; height: 380px;}
+.news-slide li .text{bottom:0;overflow:hidden;background-color:rgba(0,0,0,0.6);width:30%;float:right;position:relative;height:auto;background:0;filter:none;text-indent:0;padding:16px 10px;text-overflow: ellipsis;overflow: hidden;}
+.news-slide li .text a{color:#fff;font-size:14px;line-height:17px;float:left;}
+.news-slide li img{width:100%;height:100%; }
+.news-slide li .text .title a{font-size:16px;font-weight:700;color:#000;line-height:22px;text-indent:0;float:none;display: inline-block; width: 100%; text-align: center;text-overflow: ellipsis;overflow: hidden;white-space : nowrap;}
+.news-slide li .text p{color:#888;font-size:12px;text-indent:0;clear:both;line-height:20px;margin-top:4px;}
+
+.news-slide .triggers{position:absolute;z-index:1;width:70%;text-align:center;bottom:10px;height:38px;right:0;left:0;padding:0 0 8px;}
+.news-slide .triggers a{font-size:11px;line-height:12px;color:#000;overflow:hidden;border-radius:1px;-webkit-text-size-adjust:none;float:none;width:62px;height:42px;text-align:center;display:inline-block;background:0;margin:0 3px 0 0;}
+.news-slide .triggers a:hover{text-decoration:none;}
+.news-slide .triggers a img{width:58px;height:38px;border:1px #999 solid;vertical-align:middle;opacity:.6;}
+.news-slide .triggers a.current img{border:2px #2fac00 solid;opacity:1;}
+
+.news-slide .icon-dot{display:inline-block;position:absolute;bottom:20px;right:10%; }
+.news-slide .icon-dot a{width:12px;height:12px;display:inline-block;background-image:url(../img/nav.png);background-repeat:no-repeat;background-position:0px 0px;overflow:hidden;margin:0 2px;}
+.news-slide .icon-dot a.current{background-position:0px -11px;}
+
+.news-slide .link-watch{width:30px;height:44px;display:none;position:absolute;top:44%;background:url(../img/arrow.png) no-repeat 0 -57px;filter:alpha(opacity=60);cursor:pointer;}
+.news-slide .link-watch.pre{left:0;}
+.news-slide .link-watch.next{right:30%;background-position:right -57px;}
+.news-slide .link-watch.down{background-position-y:-2px;}
+
+
+/*应用案例*/
+.site-application{padding-bottom: 40px; }
+.application-content{margin-top: 60px;}
+.application-content-item { position: relative;width: 300px; height: 340px;  border-radius: 10px;margin: 0 auto; margin-bottom: 10px; overflow: hidden; cursor: pointer; transition: all .2s;}
+.application-content-item img{width: 100%; height: 100%; transition: all .2s; z-index: 1; position: absolute;}
+.application-content-item h4{text-align: center; background: rgba(255,255,255,0.6); height: 100px; line-height: 100px;transition: all .4s;z-index: 6;  font-size: 24px; position: absolute; left: 0; top: 32%; width: 100%;display:block; color: #444; padding-bottom: 4px;}
+.application-content-item p{display: block;margin: 0;background: rgba(0, 0,0,0.4); position: absolute; z-index: -1; width: 100%; height: 100%;left: 0;top: 0; transition: all .4s;}
+.application-content-item span{z-index: -1; display: inline-block;position: absolute; top: 60px; left: 12px; right: 12px;transition: all .4s;text-indent: 2em; color: white; }
+.application-content-item:hover img{transform: scale(1.1);}
+.application-content-item:hover{box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);}
+.application-content-item:hover h4{ top: 6px; left: 6px; font-size: 16px;color: white;border-bottom: 4px solid white; font-weight:bold;height:30px; line-height: 20px; background: transparent; width: auto;display: inline-block;text-align: left;}
+.application-content-item:hover span{z-index: 6;}
+.application-content-item:hover p{z-index: 4;}
+
+/*播放视频*/
+.video-mask {display: none;position: fixed ;z-index: 9999;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.9);overflow: auto;color: #fff;}
+.close-video-mask {cursor: pointer;width: 2rem;position: absolute;right: 3rem;top: 3rem;}
+.video-title {padding-top: 1rem;font-size: 30px;line-height: 3;text-align: center;}
+.video-container {width: 70%;height: 60%;margin: auto;text-align: center;}
+.video-container video{height: 100%;display: inline-block;vertical-align: baseline;}
+.video-desc {padding-top: 2rem;width: 70%;text-align: center;font-size: 16px; margin: auto;}
+.video-desc p{margin:  0 0 10px; text-align: center;}

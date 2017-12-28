@@ -1,0 +1,63 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load myfilter %}
+{% load staticfiles %}
+{% load static %}
+
+{% block head_css %}
+    <style type="text/css">
+        .page-nav-item span{
+            display: inline-block;
+            border-radius: 110px;
+            overflow: hidden;
+            transition: all .4s;
+        }
+        .page-nav-item span h3{
+            transition: all .4s;
+        }
+        .page-nav-item span p{display: none; font-size: 14px;  padding: 10px;color: black}
+        .page-nav-item span h3{
+            height: 60px;
+            line-height: 60px;
+            color: #444444;
+            background: rgba(255, 255,255, 0.7);
+        }
+        .page-nav-item:hover{box-shadow: none;border: none;}
+        .page-nav-item:hover span{
+            border-radius: 10px;
+            background: #cccccc;
+            padding-top: 0;
+        }
+        .page-nav-item:hover span h3{
+           background: rgba(13, 51, 113, 0.8);
+            height: 36px;
+            line-height: 36px;
+            font-size: 24px;
+            margin: 0;
+            color: white;
+        }
+        .page-nav-item:hover p{
+            display: block;
+        }
+        .page-nav-item-name{
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+{% endblock %}
+
+{% block site_content_common %}
+    <div class="col-xs-12 margin-top-22">
+        {% for product_category in product_category_list %}
+        <div class="col-sm-12 col-md-4">
+            <a class="page-nav-item" href="{% url 'product_category' %}?id={{ product_category.id }}" target="_blank">
+                <span>
+                    <p>{{ product_category.description | shear:'140'}}</p>
+                </span>
+                <img src="{% get_media_prefix %}{{ product_category.image }}" class="img-response img-circle"/>
+
+            </a>
+            <p class="margin-top-10 text-center page-nav-item-name"><a href="{% url 'product_category' %}?id={{ product_category.id }}">{{ product_category.name }}</a></p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,145 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block head_css %}
+    <style>
+        .tlz-form{
+            padding: 20px;
+            margin: 50px 0;
+            overflow: hidden;
+        }
+        .tlz-list{
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px 20px;
+            border-radius: 4px;
+        }
+        .tlz-list .list-group-item{
+            border: none;
+            background: none;
+        }
+        .introduce-img img{
+            height: 370px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        form h3{
+            padding: 0;
+            margin: 0 0 10px;
+        }
+        form textarea{
+            resize: vertical;
+            height: 100px !important;
+        }
+    </style>
+{% endblock %}
+{% block head_js %}
+    <script type="text/javascript" src="{% static 'scripts/layer/layer.js' %}"></script>
+    <script type="text/javascript">
+        if("{{ success_message }}" != ""){
+            layer.alert("{{ success_message }}", {'icon': 6})
+        }
+        if("{{ error_message }}" != ""){
+            layer.alert("{{ error_message }}", {'icon': 5})
+        }
+    </script>
+{% endblock %}
+
+{% block site_content_common %}
+    <div class="tlz-form">
+        <div class="left col-md-6">
+            <div class="introduce-img">
+                <img src="{% static 'img/contact_us.jpg' %}" class="img-responsive img-rounded">
+            </div>
+        </div>
+
+        <form class="form-horizontal col-md-6" role="form" method="post" action="{% url 'contact_kinds' %}#content" enctype="multipart/form-data">
+            {% csrf_token %}
+            <h3 class="text-center">留言板</h3>
+            <p>如果您对我们的产品和服务感兴趣，或者对我们有什么意见或建议，欢迎向我们反馈，提供您的联系方式及需求信息，我们会在最快时间内与您联系！</p>
+          <div class="form-group">
+            <label for="name" class="col-sm-3 control-label"><span class="red">*</span><i class="fa fa-user"></i>姓名：</label>
+            <div class="col-sm-9">
+                {{ message_form.username }}
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-3 control-label"><span class="red">*</span><i class="fa fa-envelope"></i>邮箱：</label>
+            <div class="col-sm-9">
+              {{ message_form.email }}
+            </div>
+           </div>
+          <div class="form-group">
+            <label for="phone" class="col-sm-3 control-label"><i class="fa fa-phone"></i>电话：</label>
+            <div class="col-sm-9">
+              {{ message_form.phone_num }}
+            </div>
+           </div>
+          <div class="form-group">
+            <label for="content" class="col-sm-3 control-label"><span class="red">*</span><i class="fa fa-pencil"></i>留言：</label>
+            <div class="col-sm-9">
+              {{ message_form.content }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default center-block ">提交</button>
+            </div>
+          </div>
+
+        </form>
+    </div>
+
+    <div class="animated fadeIn clearfix col-sm-12">
+        {% for contact in contact_list %}
+        <div class="col-lg-4 col-xs-12">
+            <div class="list-group tlz-list">
+                <h4 class="list-group-item-heading"><strong>{{ contact.area }}</strong></h4>
+                <ul class="list-group padding-0">
+                    <li class="list-group-item"><i class="fa fa-phone"></i>电话：{{ contact.phone }}</li>
+                    <li class="list-group-item"><i class="fa fa-envelope"></i>电子邮箱：{{ contact.email }}</li>
+                    <li class="list-group-item"><i class="fa fa-fax"></i>传真：{{ contact.facsimile }}</li>
+                    <li class="list-group-item"><i class="fa fa-map-marker"></i>地址：{{ contact.address }}</li>
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block footer_js %}
+    <script>
+        var user=document.getElementById("username");
+        user.onblur=function(){
+            if(user.value){
+                user.setCustomValidity("");//现将有输入时的提示设置为空
+            }else if(user.validity.valueMissing){
+                user.setCustomValidity("姓名不能为空！");
+            };
+            if(user.validity.patternMismatch){
+                user.setCustomValidity("姓名最长为50位！");
+            }
+        };
+        var email=document.getElementById("email");
+        email.onblur=function(){
+            if(email.value){
+                email.setCustomValidity("");//现将有输入时的提示设置为空
+            }else if(email.validity.valueMissing){
+                email.setCustomValidity("邮箱不能为空！");
+            };
+            if(email.validity.patternMismatch){
+                email.setCustomValidity("邮箱地址不规范！");
+            }
+        };
+        var content=document.getElementById("content");
+        content.onblur=function(){
+            if(email.value){
+                email.setCustomValidity("");//现将有输入时的提示设置为空
+            }else if(email.validity.valueMissing){
+                email.setCustomValidity("留言不能为空！");
+            }
+        };
+    </script>
+{% endblock %}

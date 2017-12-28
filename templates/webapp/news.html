@@ -1,0 +1,113 @@
+{% extends 'webapp/site_content_common.html' %}
+{% load myfilter %}
+{% load staticfiles %}
+{% load static %}
+
+{% block head_css %}
+    <style type="text/css">
+        .news-image{
+            height: 180px;
+        }
+        .news-image a{
+            height: 160px;
+            width: 160px;
+            overflow: hidden;
+        }
+        .news-image a:hover img{
+            transform: scale(1.1);
+        }
+        .news-image img{
+            height: 160px;
+            width: 160px;
+            margin-top: 10px;
+            transition: all .4s;
+        }
+        .news-title{
+            margin-top: 0px;
+            padding-bottom: 6px;
+            transition: all .4s;
+        }
+        .news-title:hover{
+
+        }
+
+        .news-content a{
+            display: inline-block;
+            width: 100%;
+            height: 100px;
+        }
+        .news-info{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+{% endblock %}
+
+{% block site_content_common %}
+    <div class="col-xs-12 margin-top-22 padding-0">
+        <ul>
+            {% for news in news_list %}
+            <li>
+                <div class="panel panel-default">
+                   <div class="panel-body news-container">
+                      <div class="news-image col-md-3 col-sm-12">
+                          <a href="{% url 'news' %}?id={{ news.id }}" target="_blank">
+                              <img src="{% get_media_prefix %}{{ news.news_image }}" class="img-thumbnail img-responsive img-circle">
+                          </a>
+                      </div>
+                       <div class="news-detail col-md-9 col-sm-12">
+                           <h3 class="news-title text-ell">
+                               <a href="{% url 'news' %}?id={{ news.id }}">{{ news.title }}</a>
+                           </h3>
+                           <p class="news-content">
+                               <a href="{% url 'news' %}?id={{ news.id }}">
+                                   {{ news.content | shear:'250' | safe }}
+                               </a>
+                           </p>
+                           <p class="text-right">
+                               <a href="{% url 'news' %}?id={{ news.id }}">
+                                   阅读全文>>
+                               </a>
+                           </p>
+                           <p class="news-info clearfix">
+                                <div class="pull-left">
+                                    <span><i class="fa fa-clock-o"></i>时间：{{ news.date_publish | date:'Y-m-d H:i:s' }}</span>&nbsp;&nbsp;
+                                    <span><i class="fa fa-user"></i>编辑：{{ news.user }}</span>
+                                </div>
+                                <div class="pull-right">
+                                    <span><i class="fa fa-eye"></i>浏览：(<a class="red" href="{% url 'news' %}?id={{ news.id }}">{{ news.eye_count }}</a>)</span>
+                                    <span><i class="fa fa-thumbs-o-up"></i>点赞：(<span class="red">{{ news.thumb_count }}</span>)</span>
+                                </div>
+                           </p>
+                       </div>
+                   </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div class="col-xs-12 text-center">
+            <ul class="pagination">
+                {% if news_list.has_previous %}
+                    <li><a href="{% url 'news' %}?page={{ news_list.previous_page_number }}#content" title="上一页">&laquo;</a></li>
+                {% else %}
+                    <li class="disabled"><a>&laquo;</a></li>
+                {% endif %}
+
+                {% for i in page_num_range %}
+                    {% if i == news_list.number %}
+                        <li class="active"><a href="{% url 'news' %}?page={{ i }}#content">{{ i }}</a></li>
+                    {% else %}
+                        <li><a href="{% url 'news' %}?page={{ i }}#content">{{ i }}</a></li>
+                    {% endif %}
+                {% endfor %}
+
+                {% if news_list.has_next %}
+                    <li><a href="{% url 'news' %}?page={{ news_list.next_page_number }}#content">&raquo;</a></li>
+                {% else %}
+                    <li class="disabled"><a>&raquo;</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

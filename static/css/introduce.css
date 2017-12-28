@@ -1,0 +1,37 @@
+.introduce-body{
+	background: url(../img/building-bg.jpg) no-repeat 0 700px;
+}
+.site-introduce .product-content-item{
+	margin-bottom: 50px;
+}
+.site-introduce{
+	padding-bottom: 75px;
+}
+.breadcrumb{
+	padding:18px 15px;
+	background: transparent;
+	border-bottom: 1px solid #DDD;
+}
+.introduce-content{
+	margin-top:20px ;
+}
+#introduce-tab{
+	
+}
+#introduce-tab li a{
+	border: none;
+}
+#introduce-tab li.active a,#introduce-tab li:hover a{
+	color: #be1e2d;
+	background: none;
+	border-bottom: 2px solid #be1e2d;
+}
+#introduce-tab li.active a:after{
+	display: block;
+	border-top: 1px solid #be1e2d;
+    width: 18px;
+    margin: auto;
+}
+#introduce-content{
+	margin-top: 20px;
+}
